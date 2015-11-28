@@ -1,0 +1,82 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #131A2D;
+	background-color: #f1f1f1;
+}
+
+img, object, video {
+	max-width: 100%;
+}
+
+h2 {
+	text-align: center;
+	background: #64DDDD;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+.icon {
+	max-height: 40%;
+}
+
+.nav li {
+	list-style-type: none;
+	display: inline;
+}
+
+.nav li a {
+	color: #64dddd;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-decoration: none;
+}
+
+.nav li a i {
+	padding-right: .3em;
+}
+
+.nav li a i:hover, .nav li a:hover {
+	color: #3FC8C8;
+}
+
+.thick-t {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 6.5em;
+	color: #666;
+	transform: translateY(-.15em);
+}
+
+.thin-t {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 5.8em;
+	color: #64DDDD;
+	transform: translate(-.65em,-.06em);
+}
+
+.inline {
+	display: inline-flex;
+}
+
+.main-nav {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#work, #about, #contact {
+	margin-top: 5em;
+	margin-bottom: 4em;
+}
+
+.img-link:hover {
+	opacity: .75;
+	cursor: pointer;
+}
+
+.headshot-margin {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
